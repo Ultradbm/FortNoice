@@ -13,7 +13,6 @@ Made following Dev Ed's React Router tutorial on youtube.
 ---
 
 <br />
-<br />
 
 # Getting Started with Create React App
 
