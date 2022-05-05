@@ -1,3 +1,15 @@
+<!-- @format -->
+
+# FortNoice
+
+A React app that utilizes React Router to display multiple pages across the site with each item being given its own route and page programmatically.
+
+Made following Dev Ed's React Router tutorial on youtube.
+
+![FortNoice Preview](preview/preview1.jpg)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

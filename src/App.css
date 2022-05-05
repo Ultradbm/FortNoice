@@ -1,38 +1,98 @@
+/** @format */
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: rgb(38, 34, 46);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 10vh;
+  background: rgb(57, 49, 71);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links {
+  width: 12%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page-title {
+  color: white;
+  font-size: 2.7rem;
+  margin: 65px;
+}
+.lead {
+  color: white;
+  font-size: 1.2rem;
+}
+.shop-container {
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.shop-item {
+  /* background-color: green; */
+  font-size: 14px;
+  width: 300px;
+  height: 300px;
+  /* background-color:green; */
+}
+.item-image {
+  height: 200px;
+  width: auto;
+  filter: drop-shadow(7px 0px 5px black);
+  /* filter: saturate(3); */
+  /* filter: hue-rotate(300deg); */
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  margin: 50px;
+  margin-bottom: 100px;
+}
+
+.itemDetail {
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgb(29, 22, 29);
+  width: 500px;
+  color: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0px 0px 20px 0px rgb(22, 19, 19) inset;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.legendary-item {
+  color: #d27d2c;
+}
+.epic-item {
+  color: #a13fca;
+  /* width:70px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:10px;
+  margin-top:-9px;
+  margin-bottom:25px;
+  background-color:#A13FCA; */
+}
+.rare-item {
+  color: #1c8ccb;
+}
+.uncommon-item {
+  color: #389604;
+}
+.common-item {
+  color: #989c9d;
 }
