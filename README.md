@@ -2,7 +2,7 @@
 
 # FortNoice
 
-A React app that utilizes React Router to display multiple pages across the site with each item being given its own route and page programmatically.
+A React app that shows new items that are coming to Fortnite. Utilizes React Router to display multiple pages across the site with each item being given its own route and page programmatically.
 
 Made following Dev Ed's React Router tutorial on youtube.
 
