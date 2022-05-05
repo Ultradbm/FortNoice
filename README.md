@@ -8,11 +8,12 @@ Made following Dev Ed's React Router tutorial on youtube.
 
 ![FortNoice Preview](preview/preview1.jpg)
 
-<br/>
+<br />
+
 ---
 
-<br/>
-<br/>
+<br />
+<br />
 
 # Getting Started with Create React App
 
